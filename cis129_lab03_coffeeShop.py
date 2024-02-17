@@ -23,7 +23,7 @@ def bill():
     print("6% tax: $", total*0.06)
     print("-----------")
     print("Total: $", gtotal)
-
+    print("Thank you for shopping with us!")
     # return the function bill so that it is closed
     return
 # call the function bill() to run it
