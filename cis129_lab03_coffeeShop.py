@@ -15,7 +15,7 @@ def bill():
     # Print the receipt with a summary with cost, quantity and grand total.
     print("My Coffee and Muffin Shop Receipt")
     print(cof, "Coffee at $5 each: $", cof*5)
-    print(muf, "Muffins at $4 each: $", cof*4)
+    print(muf, "Muffins at $4 each: $", muf*4)
     print("6% tax: $", total*0.06)
     print("-----------")
     print("Total: $", gtotal)
